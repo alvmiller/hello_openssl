@@ -11,6 +11,16 @@
 // https://www.codeproject.com/Articles/5388092/Building-Secure-Applications-with-OpenSSL
 // https://github.com/openssl/openssl/wiki/Simple_TLS_Server
 
+/*
+https://medium.com/@amit.kulkarni/encrypting-decrypting-a-file-using-openssl-evp-b26e0e4d28d4
+https://stackoverflow.com/questions/44246967/how-to-convert-aes-encrypt-in-counter-mode-to-evp-interfaces
+https://forums.developer.nvidia.com/t/problem-with-openssl-undefined-reference-to-crypto-gcm128-init/171249/2
+https://stackoverflow.com/questions/52369124/what-is-exact-alternate-api-instead-of-aes-ctr128-encrypt-from-openssl-1-1-0
+https://stackoverflow.com/questions/29441005/aes-ctr-encryption-and-decryption
+https://www.gurutechnologies.net/blog/aes-ctr-encryption-in-c/
+https://wiki.openssl.org/index.php/EVP_Symmetric_Encryption_and_Decryption
+*/
+
 // sudo apt install libssl-dev
 // gcc -o crypto crypto.c -lssl -lcrypto
 
